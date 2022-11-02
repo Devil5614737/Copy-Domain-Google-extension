@@ -1,0 +1,14 @@
+{
+  "name": "Domain Extractor",
+  "description": "Copy Domain from website ",
+  "version": 1.0,
+  "manifest_version": 3,
+  "browser_action":{
+    "default_popup":"app.html",
+    "default_icon":"logo.png"
+  },
+  "icons":{
+    "128":"logo.png"
+},
+"permissions":["activeTab"]
+}
